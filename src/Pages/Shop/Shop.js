@@ -8,7 +8,7 @@ const Shop = () => {
   return (
     <main className="shop">
       <section className="shop-heading">
-        <h1>Esso Tech Shop</h1>
+        <h1>Mo Tech Shop</h1>
       </section>
       <section className="products">
         {products.map((product) => {

@@ -1,8 +1,11 @@
-.shop-heading {
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lexend+Deca:wght@400;500&family=Merriweather+Sans&family=Playpen+Sans:wght@800&display=swap");
+
+.shop-heading h1 {
   text-align: center;
-  font-size: 50px;
+  font-size: 80px;
   font-weight: bold;
-  margin-top: 50px;
+  font-family: "playpen sans", sans-serif !important;
+  margin: 50px auto;
 }
 
 .products {
@@ -50,8 +53,9 @@
 }
 
 @media (min-width: 375px) {
-  .shop-heading {
-    font-size: 30px;
+  .shop-heading h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
   }
 
   .products {
@@ -77,8 +81,8 @@
 }
 
 @media (min-width: 768px) {
-  .shop-heading {
-    font-size: 50px;
+  .shop-heading h1 {
+    font-size: 80px;
   }
 
   .products {
